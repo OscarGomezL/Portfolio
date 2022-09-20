@@ -4,9 +4,9 @@ import Occupation from './ocuppation'
 
 export default function Hero() {
 	return (
-		<div className="container hero">
+		<section className="container hero">
 			<Name/>
 			<Occupation/>
-		</div>
+		</section>
 	)
 }
