@@ -1,0 +1,111 @@
+body {
+	overflow-x: hidden;
+}
+
+.hero {
+	background-color: #3A2F69;
+	display: flex;
+	justify-content: center;
+	flex-flow: wrap;
+	align-items: center;
+}
+.hero_name_name {
+	color: #E8D4F699;
+	width: 50%;
+	position: relative;
+	top: 70px;
+	line-height: 270px;
+	height: 270px;
+	font-size: 270px;
+	text-align: end;
+	font-family: 'antonella';
+	animation: moveRight 1s cubic-bezier(0, 0.1, .12, .99) forwards;
+}
+.hero_name_lastname {
+	color: rgba(255, 86, 57, 80);
+	width: 50%;
+	line-height: 270px;
+	height: 270px;
+	position: relative;
+	top: 156px;
+	left: -20px;
+	font-size: 270px;
+	font-family: 'antonella';
+	animation: moveLeft 1.2s cubic-bezier(0, 0.1, .12, .99) forwards;
+}
+.hero_occupation {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	top: -70px;
+	font-size: 80px;
+	line-height: 80px;
+	height: 80px;
+	width: 100%;
+}
+.hero_occupation_1 {
+	color: #E8D4B6;
+	text-align: center;
+	font-family: 'valencia';
+	animation: moveUp 1.4s cubic-bezier(0, 0.1, .12, .99) forwards;
+}
+.hero_occupation_2 {
+	color: #E8D4B6;
+	width: fit-content;
+	margin-left: 20px;
+	text-align: center;
+	font-family: 'valencia';
+	animation: moveUp 1.6s cubic-bezier(0, 0.1, .12, .99) forwards;
+}
+.hero_occupation_3 {
+	color: #E8D4B6;
+	text-align: center;
+	font-family: 'valencia';
+	animation: moveUp 1.8s cubic-bezier(0, 0.1, .12, .99) forwards;
+}
+
+@media (min-width: 768px) {
+	.hero_name_name {
+		font-size: 140px;
+	}
+	.hero_name_lastname {
+		font-size: 140px;
+	}
+	.hero_occupation {
+		font-size: 40px;
+	}
+}
+@media (min-width: 1024px) {
+	.hero_name_name {
+		font-size: 200px;
+	}
+	.hero_name_lastname {
+		font-size: 200px;
+	}
+	.hero_occupation {
+		font-size: 60px;
+	}
+}
+@media (min-width: 1440px) {
+	.hero_name_name {
+		font-size: 270px;
+	}
+	.hero_name_lastname {
+		font-size: 270px;
+	}
+	.hero_occupation {
+		font-size: 80px;
+	}
+}
+@media (min-width: 2560px) {
+	.hero_name_name {
+		font-size: 320px;
+	}
+	.hero_name_lastname {
+		font-size: 320px;
+	}
+	.hero_occupation {
+		font-size: 100px;
+	}
+}
