@@ -1,9 +1,13 @@
 import Head from "next/head"
 import React from "react"
 import Hero from "../components/Hero/hero"
+import AboutMe from "../components/About Me/aboutMe"
+import Projects from "../components/Projects/projects"
+import Skills from "../components/Skills/skills"
+import Contact from "../components/Contact/contact"
 
 export default function Home() {
-  return (
+	return (
     <React.Fragment>
 		<Head>
 			<title>Óscar Gómez's Portfolio</title>
@@ -11,6 +15,10 @@ export default function Home() {
 			<link rel="icon" href="/favicon.ico" />
 		</Head>
 		<Hero/>
+		<AboutMe/>
+		<Projects/>
+		<Skills/>
+		<Contact/>
     </React.Fragment>
   )
 }
