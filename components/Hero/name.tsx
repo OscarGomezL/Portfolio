@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react"
 
-export default function Name({timeDelay}) {
+export default function Name() {
 	return (
 		<React.Fragment>
 			<div className={`hero_name_name name_inited`}>

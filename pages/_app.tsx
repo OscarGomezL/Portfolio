@@ -5,8 +5,9 @@ import '../styles/fonts.css'
 import '../styles/animations.css'
 import '../styles/Hero/hero.css'
 import '../styles/About Me/aboutMe.css'
+import { AppProps } from 'next/app'
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps }:AppProps) {
   return <Component {...pageProps} />
 }
 
