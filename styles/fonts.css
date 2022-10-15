@@ -6,3 +6,7 @@
 	font-family: 'Valencia';
 	src: url('../assets/font/Valencia/Valencia.ttf');
 }
+@font-face {
+	font-family: 'Avenir-BlackOblique';
+	src: url('../assets/font/Avenir/Avenir-BlackOblique-04.ttf');
+}
