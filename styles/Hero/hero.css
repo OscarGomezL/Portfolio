@@ -3,7 +3,6 @@ body {
 }
 
 .hero {
-	background-color: var(--n4);
 	display: flex;
 	justify-content: center;
 	flex-flow: wrap;
