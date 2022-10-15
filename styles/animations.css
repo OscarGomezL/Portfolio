@@ -13,7 +13,7 @@
 		transform: translateX(-1000px);
 	}
 	100%{
-		transform: translateY(0px);
+		transform: translateX(0px);
 	}
 }
 @keyframes moveLeft {
@@ -21,7 +21,7 @@
 		transform: translateX(1000px);
 	}
 	100%{
-		transform: translateY(0px);
+		transform: translateX(0px);
 	}
 }
 @keyframes moveUp {
