@@ -52,6 +52,12 @@
 	width: fit-content;
 	margin-top: auto;
 }
+.projects_controls {
+	display: flex;
+	height: 50px;
+	margin-left: auto;
+	margin-top: auto;
+}
 .projects_container_2 {
 	width: 50vw;
 	height: 100vh;
