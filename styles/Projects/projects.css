@@ -8,6 +8,13 @@
 	display: flex;
 	flex-wrap: wrap;
 }
+.projects_number {
+	font-size: 60px;
+	font-family: 'Avenir-BlackOblique';
+	color: var(--n3);
+	height: 60px;
+	line-height: 80px;
+}
 .projects_container_2 {
 	width: 50vw;
 	height: 100vh;
