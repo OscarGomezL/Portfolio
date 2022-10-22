@@ -1,0 +1,15 @@
+.projects {
+	display: flex;
+}
+.projects_container_1 {
+	width: 50vw;
+	height: 100vh;
+	padding: 50px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.projects_container_2 {
+	width: 50vw;
+	height: 100vh;
+	padding: 50px;
+}
