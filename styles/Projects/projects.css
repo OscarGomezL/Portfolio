@@ -63,3 +63,27 @@
 	height: 100vh;
 	padding: 50px;
 }
+.projects_images {
+	height: 100%;
+	width: 100%;
+}
+.projects_images_1 {
+	height: 50%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.projects_images_2 {
+	height: 50%;
+	display: flex;
+}
+.img_projects_1 {
+	z-index: 10;
+}
+.img_projects_2 {
+	z-index: 10;
+	margin: auto;
+}
+.img_projects_3 {
+	margin-top: auto;
+	margin-left: auto;
+}
