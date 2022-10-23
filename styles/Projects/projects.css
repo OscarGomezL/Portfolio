@@ -58,6 +58,9 @@
 	margin-left: auto;
 	margin-top: auto;
 }
+.projects_controls img {
+	cursor: pointer;
+}
 .projects_container_2 {
 	width: 50vw;
 	height: 100vh;
