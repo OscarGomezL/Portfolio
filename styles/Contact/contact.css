@@ -1,0 +1,26 @@
+.contact_title_container {
+	width: 100vw;
+	height: 50vh;
+	display: flex;
+	justify-content: center;
+}
+.contact_title {
+	font-size: 230px;
+	line-height: 150px;
+	align-self: flex-end;
+	color: #FFFFFF;
+	font-family: 'valencia';
+	margin-bottom: 25px;
+}
+.contact_links {
+	display: flex;
+	flex-wrap: wrap	;
+	width: 100vw;
+	height: 50vh;
+	justify-content: center;
+	margin-top: 25px;
+}
+.contact_links_link {
+	margin: 0 42px;
+	cursor: pointer;
+}
