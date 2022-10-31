@@ -6,6 +6,7 @@ import '../styles/animations.css'
 import '../styles/Hero/hero.css'
 import '../styles/About Me/aboutMe.css'
 import '../styles/Projects/projects.css'
+import '../styles/Skills/skills.css'
 import '../styles/Contact/contact.css'
 import { AppProps } from 'next/app'
 
