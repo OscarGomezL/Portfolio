@@ -22,7 +22,7 @@
 	line-height: 240px;
 	text-align: center;
 	position: absolute;
-	color: #FFF3D1;
+	color: var(--n2_1);
 	font-family: 'valencia';
 }
 .aboutMe_line_1.lines_inited {animation: moveUp 2.4s cubic-bezier(0, 0.1, .12, .99) forwards;}
