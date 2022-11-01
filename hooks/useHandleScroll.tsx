@@ -10,9 +10,3 @@ export default function useHandleScroll():[(event:any)=>void, number] {
 	return [handleScroll, sp]
 }
 
-/*
-	let bodyTag = document.querySelector('body') as HTMLElement;
-	if(scrollPercentage <= 10) bodyTag.style.background = 'var(--n4)';
-	else if(scrollPercentage <= 85) bodyTag.style.background = 'var(--n2)';
-	else if(scrollPercentage <= 100) bodyTag.style.background = 'black';
-*/
