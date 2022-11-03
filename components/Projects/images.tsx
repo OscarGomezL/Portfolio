@@ -1,7 +1,7 @@
 import Image from 'next/future/image'
-import ipad from '../../public/snickers/snickers_ipad.png'
-import ipad_2 from '../../public/snickers/snickers_ipad2.png'
-import phone from '../../public/snickers/snickers_phone.png'
+import ipad from '../../public/projects/snickers/snickers_ipad.png'
+import ipad_2 from '../../public/projects/snickers/snickers_ipad2.png'
+import phone from '../../public/projects/snickers/snickers_phone.png'
 
 export default function Images() {
 	return (
