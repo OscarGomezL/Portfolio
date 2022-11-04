@@ -13,17 +13,18 @@ export default function Contact() {
 				</div>
 			</div>
 			<div className="contact_links">
-					<Link href='https://github.com/OscarGomezL'>
-						<a target='_blank'>
-							<Image
-								alt='github'
-								width={130}
-								height={130}
-								priority={true}
-								src={git}
-								className="contact_links_1 contact_links_link"
-							/>	
-						</a>
+					<Link 
+						href='https://github.com/OscarGomezL'
+						target='_blank'
+					>
+						<Image
+							alt='github'
+							width={130}
+							height={130}
+							priority={true}
+							src={git}
+							className="contact_links_1 contact_links_link"
+						/>
 					</Link>
 					<Image
 						alt='mail'
@@ -33,17 +34,18 @@ export default function Contact() {
 						src={mail}
 						className="contact_links_1 contact_links_link"
 					/>
-					<Link href='https://www.linkedin.com/in/oscargomezl/'>
-						<a target="_blank">
-							<Image
-								alt='linkedin'
-								width={130}
-								height={130}
-								priority={true}
-								src={linkedin}
-								className="contact_links_1 contact_links_link"
-							/>
-						</a>
+					<Link 
+						href='https://www.linkedin.com/in/oscargomezl/'
+						target='_blank'
+					>
+						<Image
+							alt='linkedin'
+							width={130}
+							height={130}
+							priority={true}
+							src={linkedin}
+							className="contact_links_1 contact_links_link"
+						/>
 					</Link>
 			</div>
 		</section>
