@@ -1,4 +1,4 @@
-import Image from 'next/future/image'
+import Image from 'next/image'
 import Link from 'next/link'
 import git from '../../public/social/git.svg'
 import linkedin from '../../public/social/linkedin.svg'
@@ -16,6 +16,7 @@ export default function Contact() {
 					<Link href='https://github.com/OscarGomezL'>
 						<a target='_blank'>
 							<Image
+								alt='github'
 								width={130}
 								height={130}
 								priority={true}
@@ -25,6 +26,7 @@ export default function Contact() {
 						</a>
 					</Link>
 					<Image
+						alt='mail'
 						width={130}
 						height={130}
 						priority={true}
@@ -34,6 +36,7 @@ export default function Contact() {
 					<Link href='https://www.linkedin.com/in/oscargomezl/'>
 						<a target="_blank">
 							<Image
+								alt='linkedin'
 								width={130}
 								height={130}
 								priority={true}
