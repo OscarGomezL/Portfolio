@@ -17,7 +17,6 @@ body {
 	height: 270px;
 	font-size: 270px;
 	text-align: end;
-	font-family: 'antonella';
 	animation: moveRight 1s cubic-bezier(0, 0.1, .12, .99) forwards;
 }
 .hero_name_lastname {
@@ -29,7 +28,6 @@ body {
 	top: 156px;
 	left: -20px;
 	font-size: 270px;
-	font-family: 'antonella';
 	animation: moveLeft 1.2s cubic-bezier(0, 0.1, .12, .99) forwards;
 }
 .hero_occupation {
