@@ -1,0 +1,56 @@
+.skills {
+	padding: 30px 50px;
+	margin-bottom: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+}
+.skills_description {
+	width: 100%;
+}
+.skills_description_1 {
+	transform: translateX(-1000px);
+	font-size: 30px;
+	line-height: 35px;
+	font-family: 'Avenir-BlackOblique';
+	color: var(--n3);
+}
+.skills_description_2 {
+	transform: translateX(-1000px);
+	font-size: 30px;
+	line-height: 35px;
+	font-family: 'Avenir-BlackOblique';
+	color: var(--n4);
+}
+.skills_description_1.description_inited {animation: moveRight 2.8s cubic-bezier(0, 0.1, .12, .99) forwards;}
+.skills_description_2.description_inited {animation: moveRight 2.6s cubic-bezier(0, 0.1, .12, .99) forwards;}
+
+.skills_title {
+	font-size: 350px;
+	line-height: 240px;
+	height: 180px;
+	font-family: 'Valencia';
+	color: var(--n2_1);
+	margin: auto 0;
+	width: 100%;
+}
+.skills_images {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: auto;
+	height: 150px;
+}
+.skill_image_1.image_inited {animation: moveRight 2.8s cubic-bezier(0, 0.1, .12, .99) forwards;}
+.skill_image_2.image_inited {animation: moveRight 2.6s cubic-bezier(0, 0.1, .12, .99) forwards;}
+.skill_image_3.image_inited {animation: moveRight 2.4s cubic-bezier(0, 0.1, .12, .99) forwards;}
+.skill_image_4.image_inited {animation: moveRight 2.2s cubic-bezier(0, 0.1, .12, .99) forwards;}
+.skill_image_5.image_inited {animation: moveRight 2s cubic-bezier(0, 0.1, .12, .99) forwards;}
+.skill_image_6.image_inited {animation: moveRight 1.8s cubic-bezier(0, 0.1, .12, .99) forwards;}
+.skill_image_7.image_inited {animation: moveRight 1.6s cubic-bezier(0, 0.1, .12, .99) forwards;}
+.skill_image_8.image_inited {animation: moveRight 1.4s cubic-bezier(0, 0.1, .12, .99) forwards;}
+.skill_image_9.image_inited {animation: moveRight 1.2s cubic-bezier(0, 0.1, .12, .99) forwards;}
+.skill_image_10.image_inited {animation: moveRight 1s cubic-bezier(0, 0.1, .12, .99) forwards;}
+
+.skills_images img:nth-child(even) {
+	margin: 0 5px;
+	margin-top: auto;
+}
