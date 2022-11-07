@@ -1,7 +1,11 @@
-export default function Number() {
+interface skills_number {
+	project : number,
+}
+
+export default function Number( {project} : skills_number ) {
 	return (
 		<div className="projects_number">
-			01
+			0{project}
 		</div>
 	)
 }
