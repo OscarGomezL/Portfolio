@@ -3,7 +3,11 @@ import ipad from '../../public/projects/snickers/snickers_ipad.png'
 import ipad_2 from '../../public/projects/snickers/snickers_ipad2.png'
 import phone from '../../public/projects/snickers/snickers_phone.png'
 
-export default function Images() {
+interface skills_images {
+	project : number,
+}
+
+export default function Images( {project} : skills_images ) {
 	return (
 		<div className="projects_images">
 			<div className='projects_images_1'>
