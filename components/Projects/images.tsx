@@ -12,6 +12,9 @@ import ipad_gameCommerce_backend from '../../public/projects/gameCommerceBackend
 import ipad_2_gameCommerce_backend from '../../public/projects/gameCommerceBackend/snickers_ipad2.png'
 import phone_gameCommerce_backend from '../../public/projects/gameCommerceBackend/snickers_phone.png'
 //GameCommerceFrontend
+import ipad_gameCommerce_frontend from '../../public/projects/gameCommerceFrontend/gameCommerceF_ipad.png'
+import ipad_2_gameCommerce_frontend from '../../public/projects/gameCommerceFrontend/gameCommerceF_ipad2.png'
+import phone_gameCommerce_frontend from '../../public/projects/gameCommerceFrontend/gameCommerceF_phone.png'
 //betterAmbience
 import ipad_betterAmbience from '../../public/projects/betterAmbience/snickers_ipad.png'
 import ipad_2_betterAmbience from '../../public/projects/betterAmbience/snickers_ipad2.png'
