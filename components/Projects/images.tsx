@@ -1,16 +1,17 @@
 import Image from 'next/image'
+import { useState } from 'react'
 //snickers
 import ipad_snickers from '../../public/projects/snickers/snickers_ipad.png'
 import ipad_2_snickers from '../../public/projects/snickers/snickers_ipad2.png'
 import phone_snickers from '../../public/projects/snickers/snickers_phone.png'
+import ipad_snickers_hovered from '../../public/projects/snickers/snickers_ipad_hover.png'
+import ipad_2_snickers_hovered from '../../public/projects/snickers/snickers_ipad2_hover.png'
+import phone_snickers_hovered from '../../public/projects/snickers/snickers_phone_hover.png'
 //gameCommerceBackend
 import ipad_gameCommerce_backend from '../../public/projects/gameCommerceBackend/snickers_ipad.png'
 import ipad_2_gameCommerce_backend from '../../public/projects/gameCommerceBackend/snickers_ipad2.png'
 import phone_gameCommerce_backend from '../../public/projects/gameCommerceBackend/snickers_phone.png'
 //GameCommerceFrontend
-import ipad_gameCommerce_frontend from '../../public/projects/gameCommerceFrontend/snickers_ipad.png'
-import ipad_2_gameCommerce_frontend from '../../public/projects/gameCommerceFrontend/snickers_ipad2.png'
-import phone_gameCommerce_frontend from '../../public/projects/gameCommerceFrontend/snickers_phone.png'
 //betterAmbience
 import ipad_betterAmbience from '../../public/projects/betterAmbience/snickers_ipad.png'
 import ipad_2_betterAmbience from '../../public/projects/betterAmbience/snickers_ipad2.png'
@@ -30,6 +31,7 @@ interface skills_images {
 }
 
 export default function Images( {project} : skills_images ) {
+	const [hovered, setHovered]:[boolean,any] = useState(false)
 	return (
 		<div className="projects_images">
 			<div className='projects_images_1'>
@@ -38,18 +40,22 @@ export default function Images( {project} : skills_images ) {
 						width={286}
 						height={440}
 						priority={true}
-						src={ipad_snickers}
+						src={hovered ? ipad_snickers_hovered : ipad_snickers}
 						className={`img_projects_1  ${project == 1 ? "img_projects_inited" : ""}`}
 						onClick={()=>{window.open('https://www.snickerspr.com/costarica/#que', '_blank')}}
+						onMouseEnter={()=>{setHovered(true)}}
+						onMouseLeave={()=>{setHovered(false)}}
 					/>
 					<Image
 						alt='snickers_image'
 						width={158}
 						height={321}
 						priority={true}
-						src={phone_snickers}
-						className={`img_projects_2  ${project == 1 ? "img_projects_inited" : ""}`}
+						src={hovered ? phone_snickers_hovered : phone_snickers}
+						className={`img_projects_2  ${project == 1 ? "img_projects_inited" : ""} ${hovered ? 'img_projects_hovered' : ""}`}
 						onClick={()=>{window.open('https://www.snickerspr.com/costarica/#que', '_blank')}}
+						onMouseEnter={()=>{setHovered(true)}}
+						onMouseLeave={()=>{setHovered(false)}}
 					/>
 					<Image
 						alt='snickers_image'
@@ -148,9 +154,11 @@ export default function Images( {project} : skills_images ) {
 						width={440}
 						height={286}
 						priority={true}
-						src={ipad_2_snickers}
+						src={hovered ? ipad_2_snickers_hovered : ipad_2_snickers}
 						className={`img_projects_3  ${project == 1 ? "img_projects_inited" : ""}`}
 						onClick={()=>{window.open('https://www.snickerspr.com/costarica/#que', '_blank')}}
+						onMouseEnter={()=>{setHovered(true)}}
+						onMouseLeave={()=>{setHovered(false)}}
 					/>
 					<Image
 						alt='snickers_image'
