@@ -40,6 +40,7 @@ export default function Images( {project} : skills_images ) {
 						priority={true}
 						src={ipad_snickers}
 						className={`img_projects_1  ${project == 1 ? "img_projects_inited" : ""}`}
+						onClick={()=>{window.open('https://www.snickerspr.com/costarica/#que', '_blank')}}
 					/>
 					<Image
 						alt='snickers_image'
@@ -48,6 +49,7 @@ export default function Images( {project} : skills_images ) {
 						priority={true}
 						src={phone_snickers}
 						className={`img_projects_2  ${project == 1 ? "img_projects_inited" : ""}`}
+						onClick={()=>{window.open('https://www.snickerspr.com/costarica/#que', '_blank')}}
 					/>
 					<Image
 						alt='snickers_image'
@@ -56,6 +58,7 @@ export default function Images( {project} : skills_images ) {
 						priority={true}
 						src={ipad_gameCommerce_backend}
 						className={`img_projects_1  ${project == 2 ? "img_projects_inited" : ""}`}
+						onClick={()=>{window.open('https://github.com/OscarGomezL/gameCommerceBackend', '_blank')}}
 					/>
 					<Image
 						alt='snickers_image'
@@ -64,6 +67,7 @@ export default function Images( {project} : skills_images ) {
 						priority={true}
 						src={phone_gameCommerce_backend}
 						className={`img_projects_2  ${project == 2 ? "img_projects_inited" : ""}`}
+						onClick={()=>{window.open('https://github.com/OscarGomezL/gameCommerceBackend', '_blank')}}
 					/>
 					<Image
 						alt='snickers_image'
@@ -72,6 +76,7 @@ export default function Images( {project} : skills_images ) {
 						priority={true}
 						src={ipad_gameCommerce_frontend}
 						className={`img_projects_1  ${project == 3 ? "img_projects_inited" : ""}`}
+						onClick={()=>{window.open('https://game-commerce.vercel.app/', '_blank')}}
 					/>
 					<Image
 						alt='snickers_image'
@@ -80,6 +85,7 @@ export default function Images( {project} : skills_images ) {
 						priority={true}
 						src={phone_gameCommerce_frontend}
 						className={`img_projects_2  ${project == 3 ? "img_projects_inited" : ""}`}
+						onClick={()=>{window.open('https://game-commerce.vercel.app/', '_blank')}}
 					/>
 					<Image
 						alt='snickers_image'
@@ -88,6 +94,7 @@ export default function Images( {project} : skills_images ) {
 						priority={true}
 						src={ipad_betterAmbience}
 						className={`img_projects_1  ${project == 4 ? "img_projects_inited" : ""}`}
+						onClick={()=>{window.open('https://better-ambience.vercel.app/', '_blank')}}
 					/>
 					<Image
 						alt='snickers_image'
@@ -96,6 +103,7 @@ export default function Images( {project} : skills_images ) {
 						priority={true}
 						src={phone_betterAmbience}
 						className={`img_projects_2  ${project == 4 ? "img_projects_inited" : ""}`}
+						onClick={()=>{window.open('https://better-ambience.vercel.app/', '_blank')}}
 					/>
 					<Image
 						alt='snickers_image'
@@ -104,6 +112,7 @@ export default function Images( {project} : skills_images ) {
 						priority={true}
 						src={ipad_daysBetween}
 						className={`img_projects_1  ${project == 5 ? "img_projects_inited" : ""}`}
+						onClick={()=>{window.open('https://days-between.vercel.app/', '_blank')}}
 					/>
 					<Image
 						alt='snickers_image'
@@ -112,6 +121,7 @@ export default function Images( {project} : skills_images ) {
 						priority={true}
 						src={phone_daysBetween}
 						className={`img_projects_2  ${project == 5 ? "img_projects_inited" : ""}`}
+						onClick={()=>{window.open('https://days-between.vercel.app/', '_blank')}}
 					/>
 					<Image
 						alt='snickers_image'
@@ -120,6 +130,7 @@ export default function Images( {project} : skills_images ) {
 						priority={true}
 						src={ipad_anotherPomodoro}
 						className={`img_projects_1  ${project == 6 ? "img_projects_inited" : ""}`}
+						onClick={()=>{window.open('https://another-pomodoro-app.vercel.app/', '_blank')}}
 					/>
 					<Image
 						alt='snickers_image'
@@ -128,6 +139,7 @@ export default function Images( {project} : skills_images ) {
 						priority={true}
 						src={phone_anotherPomodoro}
 						className={`img_projects_2  ${project == 6 ? "img_projects_inited" : ""}`}
+						onClick={()=>{window.open('https://another-pomodoro-app.vercel.app/', '_blank')}}
 					/>
 			</div>
 			<div className='projects_images_2'>
@@ -138,6 +150,7 @@ export default function Images( {project} : skills_images ) {
 						priority={true}
 						src={ipad_2_snickers}
 						className={`img_projects_3  ${project == 1 ? "img_projects_inited" : ""}`}
+						onClick={()=>{window.open('https://www.snickerspr.com/costarica/#que', '_blank')}}
 					/>
 					<Image
 						alt='snickers_image'
@@ -146,6 +159,7 @@ export default function Images( {project} : skills_images ) {
 						priority={true}
 						src={ipad_2_gameCommerce_backend}
 						className={`img_projects_3  ${project == 2 ? "img_projects_inited" : ""}`}
+						onClick={()=>{window.open('https://github.com/OscarGomezL/gameCommerceBackend', '_blank')}}
 					/>
 					<Image
 						alt='snickers_image'
@@ -154,6 +168,7 @@ export default function Images( {project} : skills_images ) {
 						priority={true}
 						src={ipad_2_gameCommerce_frontend}
 						className={`img_projects_3  ${project == 3 ? "img_projects_inited" : ""}`}
+						onClick={()=>{window.open('https://game-commerce.vercel.app/', '_blank')}}
 					/>
 					<Image
 						alt='snickers_image'
@@ -162,6 +177,7 @@ export default function Images( {project} : skills_images ) {
 						priority={true}
 						src={ipad_2_betterAmbience}
 						className={`img_projects_3  ${project == 4 ? "img_projects_inited" : ""}`}
+						onClick={()=>{window.open('https://better-ambience.vercel.app/', '_blank')}}
 					/>
 					<Image
 						alt='snickers_image'
@@ -170,6 +186,7 @@ export default function Images( {project} : skills_images ) {
 						priority={true}
 						src={ipad_2_daysBetween}
 						className={`img_projects_3  ${project == 5 ? "img_projects_inited" : ""}`}
+						onClick={()=>{window.open('https://days-between.vercel.app/', '_blank')}}
 					/>
 					<Image
 						alt='snickers_image'
@@ -178,6 +195,7 @@ export default function Images( {project} : skills_images ) {
 						priority={true}
 						src={ipad_2_anotherPomodoro}
 						className={`img_projects_3  ${project == 6 ? "img_projects_inited" : ""}`}
+						onClick={()=>{window.open('https://another-pomodoro-app.vercel.app/', '_blank')}}
 					/>
 			</div>
 		</div>
