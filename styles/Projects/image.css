@@ -16,18 +16,21 @@
 	z-index: 10;
 	transform: translateX(1000px) translateY(1000px);
 	position: absolute;
+	cursor: pointer;
 }
 .img_projects_2 {
 	z-index: 10;
 	margin: auto;
 	transform: translateX(1000px) translateY(1000px);
 	position: absolute;
+	cursor: pointer;
 }
 .img_projects_3 {
 	margin-top: auto;
 	margin-left: auto;
 	transform: translateX(1000px) translateY(1000px);
 	position: absolute;
+	cursor: pointer;
 }
 
 .img_projects_inited {
