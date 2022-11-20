@@ -15,6 +15,9 @@ import phone_gameCommerce_backend from '../../public/projects/gameCommerceBacken
 import ipad_gameCommerce_frontend from '../../public/projects/gameCommerceFrontend/gameCommerceF_ipad.png'
 import ipad_2_gameCommerce_frontend from '../../public/projects/gameCommerceFrontend/gameCommerceF_ipad2.png'
 import phone_gameCommerce_frontend from '../../public/projects/gameCommerceFrontend/gameCommerceF_phone.png'
+import ipad_gameCommerce_frontend_hovered from '../../public/projects/gameCommerceFrontend/gameCommerceF_ipad_hover.png'
+import ipad_2_gameCommerce_frontend_hovered from '../../public/projects/gameCommerceFrontend/gameCommerceF_ipad2_hover.png'
+import phone_gameCommerce_frontend_hovered from '../../public/projects/gameCommerceFrontend/gameCommerceF_phone_hover.png'
 //betterAmbience
 import ipad_betterAmbience from '../../public/projects/betterAmbience/snickers_ipad.png'
 import ipad_2_betterAmbience from '../../public/projects/betterAmbience/snickers_ipad2.png'
