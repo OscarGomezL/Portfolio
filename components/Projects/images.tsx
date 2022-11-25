@@ -9,8 +9,8 @@ import ipad_2_snickers_hovered from '../../public/projects/snickers/snickers_ipa
 import phone_snickers_hovered from '../../public/projects/snickers/snickers_phone_hover.png'
 //gameCommerceBackend
 import ipad_gameCommerce_backend from '../../public/projects/gameCommerceBackend/snickers_ipad.png'
-import ipad_2_gameCommerce_backend from '../../public/projects/gameCommerceBackend/snickers_ipad2.png'
-import phone_gameCommerce_backend from '../../public/projects/gameCommerceBackend/snickers_phone.png'
+import ipad_2_gameCommerce_backend from '../../public/projects/gameCommerceBackend/gameCommerceB_ipad2.png'
+import phone_gameCommerce_backend from '../../public/projects/gameCommerceBackend/gameCommerceB_phone.png'
 //GameCommerceFrontend
 import ipad_gameCommerce_frontend from '../../public/projects/gameCommerceFrontend/gameCommerceF_ipad.png'
 import ipad_2_gameCommerce_frontend from '../../public/projects/gameCommerceFrontend/gameCommerceF_ipad2.png'
