@@ -8,7 +8,7 @@ import ipad_snickers_hovered from '../../public/projects/snickers/snickers_ipad_
 import ipad_2_snickers_hovered from '../../public/projects/snickers/snickers_ipad2_hover.png'
 import phone_snickers_hovered from '../../public/projects/snickers/snickers_phone_hover.png'
 //gameCommerceBackend
-import ipad_gameCommerce_backend from '../../public/projects/gameCommerceBackend/snickers_ipad.png'
+import ipad_gameCommerce_backend from '../../public/projects/gameCommerceBackend/gameCommerceB_ipad.png'
 import ipad_2_gameCommerce_backend from '../../public/projects/gameCommerceBackend/gameCommerceB_ipad2.png'
 import phone_gameCommerce_backend from '../../public/projects/gameCommerceBackend/gameCommerceB_phone.png'
 //GameCommerceFrontend
@@ -19,13 +19,16 @@ import ipad_gameCommerce_frontend_hovered from '../../public/projects/gameCommer
 import ipad_2_gameCommerce_frontend_hovered from '../../public/projects/gameCommerceFrontend/gameCommerceF_ipad2_hover.png'
 import phone_gameCommerce_frontend_hovered from '../../public/projects/gameCommerceFrontend/gameCommerceF_phone_hover.png'
 //betterAmbience
-import ipad_betterAmbience from '../../public/projects/betterAmbience/snickers_ipad.png'
-import ipad_2_betterAmbience from '../../public/projects/betterAmbience/snickers_ipad2.png'
-import phone_betterAmbience from '../../public/projects/betterAmbience/snickers_phone.png'
+import ipad_betterAmbience from '../../public/projects/betterAmbience/betterAmbience_ipad.png'
+import ipad_2_betterAmbience from '../../public/projects/betterAmbience/betterAmbience_ipad2.png'
+import phone_betterAmbience from '../../public/projects/betterAmbience/betterAmbience_phone.png'
 //daysBetween
-import ipad_daysBetween from '../../public/projects/daysBetween/snickers_ipad.png'
-import ipad_2_daysBetween from '../../public/projects/daysBetween/snickers_ipad2.png'
-import phone_daysBetween from '../../public/projects/daysBetween/snickers_phone.png'
+//import ipad_daysBetween from '../../public/projects/daysBetween/daysBetween_ipad.png'
+//import ipad_2_daysBetween from '../../public/projects/daysBetween/daysBetween_ipad2.png'
+//import phone_daysBetween from '../../public/projects/daysBetween/daysBetween_phone.png'
+import ipad_daysBetween_hovered from '../../public/projects/daysBetween/daysBetween_ipad_hover.png'
+import ipad_2_daysBetween_hovered from '../../public/projects/daysBetween/daysBetween_ipad2_hover.png'
+import phone_daysBetween_hovered from '../../public/projects/daysBetween/daysBetween_phone_hover.png'
 //anotherPomodoro
 import ipad_anotherPomodoro from '../../public/projects/anotherPomodoroApp/snickers_ipad.png'
 import ipad_2_anotherPomodoro from '../../public/projects/anotherPomodoroApp/snickers_ipad2.png'
@@ -134,7 +137,7 @@ export default function Images( {project} : skills_images ) {
 						width={286}
 						height={440}
 						priority={true}
-						src={ipad_daysBetween}
+						src={hovered ? ipad_daysBetween_hovered : ipad_daysBetween_hovered}
 						className={`img_projects_1  ${project == 5 ? "img_projects_inited" : ""}`}
 						onClick={()=>{window.open('https://days-between.vercel.app/', '_blank')}}
 						onMouseEnter={()=>{setHovered(true)}}
@@ -145,7 +148,7 @@ export default function Images( {project} : skills_images ) {
 						width={158}
 						height={321}
 						priority={true}
-						src={phone_daysBetween}
+						src={hovered ? phone_daysBetween_hovered : phone_daysBetween_hovered}
 						className={`img_projects_2  ${project == 5 ? "img_projects_inited" : ""}`}
 						onClick={()=>{window.open('https://days-between.vercel.app/', '_blank')}}
 						onMouseEnter={()=>{setHovered(true)}}
@@ -224,7 +227,7 @@ export default function Images( {project} : skills_images ) {
 						width={440}
 						height={286}
 						priority={true}
-						src={ipad_2_daysBetween}
+						src={ipad_2_daysBetween_hovered}
 						className={`img_projects_3  ${project == 5 ? "img_projects_inited" : ""}`}
 						onClick={()=>{window.open('https://days-between.vercel.app/', '_blank')}}
 						onMouseEnter={()=>{setHovered(true)}}
