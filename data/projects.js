@@ -33,7 +33,7 @@ export default function getProjects() {
 				info: {
 					title: "Better Ambience",
 					technologies: ["Next","Use-Sound"],
-					description: "BetterAmbience was my first project, betterAmbience is a software designed to improve your experience with relaxating sounds of the your preference. The user can combine sounds and adjust the volume of each sound at will.",
+					description: "BetterAmbience was my first project, betterAmbience is a software designed to improve your experience with relaxating sounds of your preference. The user can combine sounds and adjust the volume of each sound at will.",
 				},
 				title:"Frontend"
 			},
