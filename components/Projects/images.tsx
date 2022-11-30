@@ -70,7 +70,7 @@ export default function Images( {project} : skills_images ) {
 						onMouseLeave={()=>{setHovered(false)}}
 					/>
 					<Image
-						alt='snickers_image'
+						alt='gameCommerce_backend_image'
 						width={286}
 						height={440}
 						priority={true}
@@ -81,7 +81,7 @@ export default function Images( {project} : skills_images ) {
 						onMouseLeave={()=>{setHovered(false)}}
 					/>
 					<Image
-						alt='snickers_image'
+						alt='gameCommerce_backend_image'
 						width={158}
 						height={321}
 						priority={true}
@@ -92,7 +92,7 @@ export default function Images( {project} : skills_images ) {
 						onMouseLeave={()=>{setHovered(false)}}
 					/>
 					<Image
-						alt='snickers_image'
+						alt='gameCommerce_frontend_image'
 						width={286}
 						height={440}
 						priority={true}
@@ -103,7 +103,7 @@ export default function Images( {project} : skills_images ) {
 						onMouseLeave={()=>{setHovered(false)}}
 					/>
 					<Image
-						alt='snickers_image'
+						alt='gameCommerce_frontend_image'
 						width={158}
 						height={321}
 						priority={true}
@@ -114,7 +114,7 @@ export default function Images( {project} : skills_images ) {
 						onMouseLeave={()=>{setHovered(false)}}
 					/>
 					<Image
-						alt='snickers_image'
+						alt='betterAmbience_image'
 						width={286}
 						height={440}
 						priority={true}
@@ -125,7 +125,7 @@ export default function Images( {project} : skills_images ) {
 						onMouseLeave={()=>{setHovered(false)}}
 					/>
 					<Image
-						alt='snickers_image'
+						alt='betterAmbience_image'
 						width={158}
 						height={321}
 						priority={true}
@@ -136,7 +136,7 @@ export default function Images( {project} : skills_images ) {
 						onMouseLeave={()=>{setHovered(false)}}
 					/>
 					<Image
-						alt='snickers_image'
+						alt='daysBetween_image'
 						width={286}
 						height={440}
 						priority={true}
@@ -147,7 +147,7 @@ export default function Images( {project} : skills_images ) {
 						onMouseLeave={()=>{setHovered(false)}}
 					/>
 					<Image
-						alt='snickers_image'
+						alt='daysBetween_image'
 						width={158}
 						height={321}
 						priority={true}
@@ -158,7 +158,7 @@ export default function Images( {project} : skills_images ) {
 						onMouseLeave={()=>{setHovered(false)}}
 					/>
 					<Image
-						alt='snickers_image'
+						alt='anotherPomodoroApp_image'
 						width={286}
 						height={440}
 						priority={true}
@@ -169,7 +169,7 @@ export default function Images( {project} : skills_images ) {
 						onMouseLeave={()=>{setHovered(false)}}
 					/>
 					<Image
-						alt='snickers_image'
+						alt='anotherPomodoroApp_image'
 						width={158}
 						height={321}
 						priority={true}
@@ -193,7 +193,7 @@ export default function Images( {project} : skills_images ) {
 						onMouseLeave={()=>{setHovered(false)}}
 					/>
 					<Image
-						alt='snickers_image'
+						alt='gameCommerce_backend_image'
 						width={440}
 						height={286}
 						priority={true}
@@ -204,7 +204,7 @@ export default function Images( {project} : skills_images ) {
 						onMouseLeave={()=>{setHovered(false)}}
 					/>
 					<Image
-						alt='snickers_image'
+						alt='gameCommerce_frontend_image'
 						width={440}
 						height={286}
 						priority={true}
@@ -215,7 +215,7 @@ export default function Images( {project} : skills_images ) {
 						onMouseLeave={()=>{setHovered(false)}}
 					/>
 					<Image
-						alt='snickers_image'
+						alt='betterAmbience_image'
 						width={440}
 						height={286}
 						priority={true}
@@ -226,7 +226,7 @@ export default function Images( {project} : skills_images ) {
 						onMouseLeave={()=>{setHovered(false)}}
 					/>
 					<Image
-						alt='snickers_image'
+						alt='daysBetween_image'
 						width={440}
 						height={286}
 						priority={true}
@@ -237,7 +237,7 @@ export default function Images( {project} : skills_images ) {
 						onMouseLeave={()=>{setHovered(false)}}
 					/>
 					<Image
-						alt='snickers_image'
+						alt='anotherPomodoroApp_image'
 						width={440}
 						height={286}
 						priority={true}
