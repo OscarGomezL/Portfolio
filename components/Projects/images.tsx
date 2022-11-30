@@ -33,6 +33,9 @@ import phone_daysBetween_hovered from '../../public/projects/daysBetween/daysBet
 import ipad_anotherPomodoro from '../../public/projects/anotherPomodoroApp/snickers_ipad.png'
 import ipad_2_anotherPomodoro from '../../public/projects/anotherPomodoroApp/snickers_ipad2.png'
 import phone_anotherPomodoro from '../../public/projects/anotherPomodoroApp/snickers_phone.png'
+import ipad_anotherPomodoro_hovered from '../../public/projects/anotherPomodoroApp/anotherPomodoroApp_ipad_hover.png'
+import ipad_2_anotherPomodoro_hovered from '../../public/projects/anotherPomodoroApp/anotherPomodoroApp_ipad2_hover.png'
+import phone_anotherPomodoro_hovered from '../../public/projects/anotherPomodoroApp/anotherPomodoroApp_phone_hover.png'
 
 
 interface skills_images {
