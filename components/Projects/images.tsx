@@ -162,7 +162,7 @@ export default function Images( {project} : skills_images ) {
 						width={286}
 						height={440}
 						priority={true}
-						src={ipad_anotherPomodoro}
+						src={hovered ? ipad_anotherPomodoro_hovered : ipad_anotherPomodoro}
 						className={`img_projects_1  ${project == 6 ? "img_projects_inited" : ""}`}
 						onClick={()=>{window.open('https://another-pomodoro-app.vercel.app/', '_blank')}}
 						onMouseEnter={()=>{setHovered(true)}}
@@ -173,7 +173,7 @@ export default function Images( {project} : skills_images ) {
 						width={158}
 						height={321}
 						priority={true}
-						src={phone_anotherPomodoro}
+						src={hovered ? phone_anotherPomodoro_hovered : phone_anotherPomodoro}
 						className={`img_projects_2  ${project == 6 ? "img_projects_inited" : ""}`}
 						onClick={()=>{window.open('https://another-pomodoro-app.vercel.app/', '_blank')}}
 						onMouseEnter={()=>{setHovered(true)}}
@@ -241,7 +241,7 @@ export default function Images( {project} : skills_images ) {
 						width={440}
 						height={286}
 						priority={true}
-						src={ipad_2_anotherPomodoro}
+						src={hovered ? ipad_2_anotherPomodoro_hovered : ipad_2_anotherPomodoro}
 						className={`img_projects_3  ${project == 6 ? "img_projects_inited" : ""}`}
 						onClick={()=>{window.open('https://another-pomodoro-app.vercel.app/', '_blank')}}
 						onMouseEnter={()=>{setHovered(true)}}
