@@ -22,10 +22,13 @@ import phone_gameCommerce_frontend_hovered from '../../public/projects/gameComme
 import ipad_betterAmbience from '../../public/projects/betterAmbience/betterAmbience_ipad.png'
 import ipad_2_betterAmbience from '../../public/projects/betterAmbience/betterAmbience_ipad2.png'
 import phone_betterAmbience from '../../public/projects/betterAmbience/betterAmbience_phone.png'
+import ipad_betterAmbience_hovered from '../../public/projects/betterAmbience/betterAmbience_ipad_hover.png'
+import ipad_2_betterAmbience_hovered from '../../public/projects/betterAmbience/betterAmbience_ipad2_hover.png'
+import phone_betterAmbience_hovered from '../../public/projects/betterAmbience/betterAmbience_phone_hover.png'
 //daysBetween
-//import ipad_daysBetween from '../../public/projects/daysBetween/daysBetween_ipad.png'
-//import ipad_2_daysBetween from '../../public/projects/daysBetween/daysBetween_ipad2.png'
-//import phone_daysBetween from '../../public/projects/daysBetween/daysBetween_phone.png'
+import ipad_daysBetween from '../../public/projects/daysBetween/daysBetween_ipad.png'
+import ipad_2_daysBetween from '../../public/projects/daysBetween/daysBetween_ipad_2.png'
+import phone_daysBetween from '../../public/projects/daysBetween/daysBetween_phone.png'
 import ipad_daysBetween_hovered from '../../public/projects/daysBetween/daysBetween_ipad_hover.png'
 import ipad_2_daysBetween_hovered from '../../public/projects/daysBetween/daysBetween_ipad2_hover.png'
 import phone_daysBetween_hovered from '../../public/projects/daysBetween/daysBetween_phone_hover.png'
@@ -74,7 +77,7 @@ export default function Images( {project} : skills_images ) {
 						width={286}
 						height={440}
 						priority={true}
-						src={ipad_gameCommerce_backend}
+						src={hovered ? ipad_gameCommerce_frontend_hovered : ipad_gameCommerce_backend}
 						className={`img_projects_1  ${project == 2 ? "img_projects_inited" : ""}`}
 						onClick={()=>{window.open('https://github.com/OscarGomezL/gameCommerceBackend', '_blank')}}
 						onMouseEnter={()=>{setHovered(true)}}
@@ -85,7 +88,7 @@ export default function Images( {project} : skills_images ) {
 						width={158}
 						height={321}
 						priority={true}
-						src={phone_gameCommerce_backend}
+						src={hovered ? phone_gameCommerce_frontend_hovered : phone_gameCommerce_backend}
 						className={`img_projects_2  ${project == 2 ? "img_projects_inited" : ""}`}
 						onClick={()=>{window.open('https://github.com/OscarGomezL/gameCommerceBackend', '_blank')}}
 						onMouseEnter={()=>{setHovered(true)}}
@@ -118,7 +121,7 @@ export default function Images( {project} : skills_images ) {
 						width={286}
 						height={440}
 						priority={true}
-						src={ipad_betterAmbience}
+						src={hovered ? ipad_betterAmbience_hovered : ipad_betterAmbience}
 						className={`img_projects_1  ${project == 4 ? "img_projects_inited" : ""}`}
 						onClick={()=>{window.open('https://better-ambience.vercel.app/', '_blank')}}
 						onMouseEnter={()=>{setHovered(true)}}
@@ -129,7 +132,7 @@ export default function Images( {project} : skills_images ) {
 						width={158}
 						height={321}
 						priority={true}
-						src={phone_betterAmbience}
+						src={hovered ? phone_betterAmbience_hovered : phone_betterAmbience}
 						className={`img_projects_2  ${project == 4 ? "img_projects_inited" : ""}`}
 						onClick={()=>{window.open('https://better-ambience.vercel.app/', '_blank')}}
 						onMouseEnter={()=>{setHovered(true)}}
@@ -140,7 +143,7 @@ export default function Images( {project} : skills_images ) {
 						width={286}
 						height={440}
 						priority={true}
-						src={hovered ? ipad_daysBetween_hovered : ipad_daysBetween_hovered}
+						src={hovered ? ipad_daysBetween_hovered : ipad_daysBetween}
 						className={`img_projects_1  ${project == 5 ? "img_projects_inited" : ""}`}
 						onClick={()=>{window.open('https://days-between.vercel.app/', '_blank')}}
 						onMouseEnter={()=>{setHovered(true)}}
@@ -151,7 +154,7 @@ export default function Images( {project} : skills_images ) {
 						width={158}
 						height={321}
 						priority={true}
-						src={hovered ? phone_daysBetween_hovered : phone_daysBetween_hovered}
+						src={hovered ? phone_daysBetween_hovered : phone_daysBetween}
 						className={`img_projects_2  ${project == 5 ? "img_projects_inited" : ""}`}
 						onClick={()=>{window.open('https://days-between.vercel.app/', '_blank')}}
 						onMouseEnter={()=>{setHovered(true)}}
@@ -197,7 +200,7 @@ export default function Images( {project} : skills_images ) {
 						width={440}
 						height={286}
 						priority={true}
-						src={ipad_2_gameCommerce_backend}
+						src={hovered ? ipad_2_gameCommerce_frontend_hovered : ipad_2_gameCommerce_backend}
 						className={`img_projects_3  ${project == 2 ? "img_projects_inited" : ""}`}
 						onClick={()=>{window.open('https://github.com/OscarGomezL/gameCommerceBackend', '_blank')}}
 						onMouseEnter={()=>{setHovered(true)}}
@@ -219,7 +222,7 @@ export default function Images( {project} : skills_images ) {
 						width={440}
 						height={286}
 						priority={true}
-						src={ipad_2_betterAmbience}
+						src={hovered ? ipad_2_betterAmbience_hovered : ipad_2_betterAmbience}
 						className={`img_projects_3  ${project == 4 ? "img_projects_inited" : ""}`}
 						onClick={()=>{window.open('https://better-ambience.vercel.app/', '_blank')}}
 						onMouseEnter={()=>{setHovered(true)}}
@@ -230,7 +233,7 @@ export default function Images( {project} : skills_images ) {
 						width={440}
 						height={286}
 						priority={true}
-						src={ipad_2_daysBetween_hovered}
+						src={hovered ? ipad_2_daysBetween_hovered : ipad_2_daysBetween}
 						className={`img_projects_3  ${project == 5 ? "img_projects_inited" : ""}`}
 						onClick={()=>{window.open('https://days-between.vercel.app/', '_blank')}}
 						onMouseEnter={()=>{setHovered(true)}}
