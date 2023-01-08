@@ -32,14 +32,6 @@ import phone_daysBetween from '../../public/projects/daysBetween/daysBetween_pho
 import ipad_daysBetween_hovered from '../../public/projects/daysBetween/daysBetween_ipad_hover.png'
 import ipad_2_daysBetween_hovered from '../../public/projects/daysBetween/daysBetween_ipad2_hover.png'
 import phone_daysBetween_hovered from '../../public/projects/daysBetween/daysBetween_phone_hover.png'
-//anotherPomodoro
-import ipad_anotherPomodoro from '../../public/projects/anotherPomodoroApp/snickers_ipad.png'
-import ipad_2_anotherPomodoro from '../../public/projects/anotherPomodoroApp/snickers_ipad2.png'
-import phone_anotherPomodoro from '../../public/projects/anotherPomodoroApp/snickers_phone.png'
-import ipad_anotherPomodoro_hovered from '../../public/projects/anotherPomodoroApp/anotherPomodoroApp_ipad_hover.png'
-import ipad_2_anotherPomodoro_hovered from '../../public/projects/anotherPomodoroApp/anotherPomodoroApp_ipad2_hover.png'
-import phone_anotherPomodoro_hovered from '../../public/projects/anotherPomodoroApp/anotherPomodoroApp_phone_hover.png'
-
 
 interface skills_images {
 	project : number,
@@ -160,28 +152,6 @@ export default function Images( {project} : skills_images ) {
 						onMouseEnter={()=>{setHovered(true)}}
 						onMouseLeave={()=>{setHovered(false)}}
 					/>
-					<Image
-						alt='anotherPomodoroApp_image'
-						width={286}
-						height={440}
-						priority={true}
-						src={hovered ? ipad_anotherPomodoro_hovered : ipad_anotherPomodoro}
-						className={`img_projects_1  ${project == 6 ? "img_projects_inited" : ""}`}
-						onClick={()=>{window.open('https://another-pomodoro-app.vercel.app/', '_blank')}}
-						onMouseEnter={()=>{setHovered(true)}}
-						onMouseLeave={()=>{setHovered(false)}}
-					/>
-					<Image
-						alt='anotherPomodoroApp_image'
-						width={158}
-						height={321}
-						priority={true}
-						src={hovered ? phone_anotherPomodoro_hovered : phone_anotherPomodoro}
-						className={`img_projects_2  ${project == 6 ? "img_projects_inited" : ""}`}
-						onClick={()=>{window.open('https://another-pomodoro-app.vercel.app/', '_blank')}}
-						onMouseEnter={()=>{setHovered(true)}}
-						onMouseLeave={()=>{setHovered(false)}}
-					/>
 			</div>
 			<div className='projects_images_2'>
 					<Image
@@ -236,17 +206,6 @@ export default function Images( {project} : skills_images ) {
 						src={hovered ? ipad_2_daysBetween_hovered : ipad_2_daysBetween}
 						className={`img_projects_3  ${project == 5 ? "img_projects_inited" : ""}`}
 						onClick={()=>{window.open('https://days-between.vercel.app/', '_blank')}}
-						onMouseEnter={()=>{setHovered(true)}}
-						onMouseLeave={()=>{setHovered(false)}}
-					/>
-					<Image
-						alt='anotherPomodoroApp_image'
-						width={440}
-						height={286}
-						priority={true}
-						src={hovered ? ipad_2_anotherPomodoro_hovered : ipad_2_anotherPomodoro}
-						className={`img_projects_3  ${project == 6 ? "img_projects_inited" : ""}`}
-						onClick={()=>{window.open('https://another-pomodoro-app.vercel.app/', '_blank')}}
 						onMouseEnter={()=>{setHovered(true)}}
 						onMouseLeave={()=>{setHovered(false)}}
 					/>

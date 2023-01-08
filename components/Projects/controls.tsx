@@ -10,7 +10,7 @@ export default function Controls( { setProject } : skills_controls) {
 				alt="<"
 				onClick={
 					()=>{
-						setProject((project:number)=> project > 1 ? project - 1 : 6)
+						setProject((project:number)=> project > 1 ? project - 1 : 5)
 					}
 				}
 			/>
@@ -19,7 +19,7 @@ export default function Controls( { setProject } : skills_controls) {
 				alt=">"
 				onClick={
 					()=>{
-						setProject((project:number)=> project < 6 ? project + 1 : 1)
+						setProject((project:number)=> project < 5 ? project + 1 : 1)
 					}
 				}
 			/>

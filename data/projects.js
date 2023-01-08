@@ -46,15 +46,6 @@ export default function getProjects() {
 				},
 				title:"Frontend"
 			},
-			6:{
-				number:"06",
-				info: {
-					title: "AnotherPomodoro",
-					technologies: ["Next","Redux"],
-					description: "AnotherPomodoroApp is a web pomodoro timer software, a pretty simple application which I made to practice browser-side API's and global state using server-side rendering and redux with nextjs.",
-				},
-				title:"Frontend"
-			},
 		}
 	)
 }
