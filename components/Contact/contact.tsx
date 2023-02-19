@@ -26,14 +26,19 @@ export default function Contact() {
 							className="contact_links_1 contact_links_link"
 						/>
 					</Link>
-					<Image
-						alt='mail'
-						width={130}
-						height={130}
-						priority={true}
-						src={mail}
-						className="contact_links_1 contact_links_link"
-					/>
+					<Link 
+						href='mailto:contact@oscargomezl.com'
+						target='_blank'
+					>
+						<Image
+							alt='mail'
+							width={130}
+							height={130}
+							priority={true}
+							src={mail}
+							className="contact_links_1 contact_links_link"
+						/>
+					</Link>
 					<Link 
 						href='https://www.linkedin.com/in/oscargomezl/'
 						target='_blank'
