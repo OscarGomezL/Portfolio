@@ -28,6 +28,7 @@
 	font-size: 350px;
 	line-height: 240px;
 	height: 180px;
+	user-select: none;
 	font-family: 'Valencia';
 	color: var(--n2_1);
 	margin: auto 0;
